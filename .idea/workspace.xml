@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d59c75bf-da62-4200-94c0-e60293b356a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single_link_list_recurrent.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表/single_link_list_recurrent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表/single_linked_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/双向链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表/双向链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构可视化辅助理解，便于代码开发.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/链表/数据结构可视化辅助理解，便于代码开发.pptx" afterDir="false" />
-    </list>
+    <list default="true" id="d59c75bf-da62-4200-94c0-e60293b356a7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,60 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/链表/single_linked_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/链表/single_link_list_recurrent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="984">
-              <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
-              <folding>
-                <element signature="e#107#170#0" />
-                <element signature="e#313#648#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/链表/双向链表.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/排序算法/冒泡排序.py">
+        <entry file="file://$PROJECT_DIR$/排序算法/选择排序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-708247146/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="4137" lean-forward="true" selection-start-line="4137" selection-end-line="4137" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27216">
-              <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
+            <state relative-caret-position="216">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -88,9 +32,11 @@
     <findStrings>
       <find>cou</find>
       <find>length</find>
+      <find>i</find>
     </findStrings>
     <replaceStrings>
       <replace>cur</replace>
+      <replace>j</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -108,6 +54,7 @@
         <option value="$PROJECT_DIR$/single_link_list_recurrent.py" />
         <option value="$PROJECT_DIR$/双向链表.py" />
         <option value="$PROJECT_DIR$/排序算法/冒泡排序.py" />
+        <option value="$PROJECT_DIR$/排序算法/选择排序.py" />
       </list>
     </option>
   </component>
@@ -167,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.冒泡排序">
+  <component name="RunManager" selected="Python.选择排序">
     <configuration name="双向链表" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="选择排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/排序算法" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\人工智能\data-structure\链表\single_linked_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/排序算法/选择排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.选择排序" />
         <item itemvalue="Python.冒泡排序" />
         <item itemvalue="Python.双向链表" />
         <item itemvalue="Python.single_link_list_recurrent" />
         <item itemvalue="Python.single_linked_list" />
-        <item itemvalue="Python.linked_list" />
       </list>
     </recent_temporary>
   </component>
@@ -298,13 +245,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19286658" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19286658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3753541" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16855524" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27053824" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,6 +268,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>length +1</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>self.length()</expression-string>
         <language-id>Python</language-id>
@@ -385,8 +338,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/排序算法/冒泡排序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="48">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序算法/选择排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
