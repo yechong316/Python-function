@@ -1,4 +1,4 @@
-from single_linked_list import Node
+from 链表.single_linked_list import Node
 
 class RecurrentLinkList:
 

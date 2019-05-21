@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d59c75bf-da62-4200-94c0-e60293b356a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/双向链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/双向链表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_link_list_recurrent.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表/single_link_list_recurrent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表/single_linked_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/双向链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/链表/双向链表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构可视化辅助理解，便于代码开发.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/链表/数据结构可视化辅助理解，便于代码开发.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,25 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/single_linked_list.py">
+        <entry file="file://$PROJECT_DIR$/链表/single_linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="e#371#600#0" />
-                <element signature="e#633#840#0" />
-                <element signature="e#882#1281#0" />
-                <element signature="e#1364#1554#0" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/single_link_list_recurrent.py">
+        <entry file="file://$PROJECT_DIR$/链表/single_link_list_recurrent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+            <state relative-caret-position="984">
+              <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
               <folding>
                 <element signature="e#107#170#0" />
                 <element signature="e#313#648#0" />
@@ -40,36 +39,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/双向链表.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/链表/双向链表.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#50#166#0" />
-                <element signature="e#205#222#0" />
-                <element signature="e#329#441#0" />
-                <element signature="e#499#947#0" />
-                <element signature="e#661#875#0" />
-                <element signature="e#1058#1179#0" />
-                <element signature="e#768#822#0" />
-                <element signature="e#1269#2083#0" />
-                <element signature="e#962#1160#0" />
-                <element signature="e#1005#1477#0" />
-                <element signature="e#1132#1191#0" />
-                <element signature="e#1307#1332#0" />
-                <element signature="e#2221#2416#0" />
-                <element signature="e#1457#1512#0" />
-                <element signature="e#2414#3124#0" />
-                <element signature="e#2060#2123#2" />
-                <element signature="e#2660#3124#0" />
-                <element signature="e#2706#3103#0" />
-                <element signature="e#2992#3051#0" />
-                <element signature="e#2973#3043#0" />
-                <element signature="e#3328#3715#0" />
-                <element signature="e#3484#3653#0" />
-                <element signature="e#3572#3624#0" />
-              </folding>
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/排序算法/冒泡排序.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-708247146/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="4137" lean-forward="true" selection-start-line="4137" selection-end-line="4137" />
             </state>
           </provider>
         </entry>
@@ -77,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="27216">
               <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
             </state>
           </provider>
@@ -105,7 +97,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/single_linked_list.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/链表/single_linked_list.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -115,13 +107,14 @@
         <option value="$PROJECT_DIR$/single_linked_list.py" />
         <option value="$PROJECT_DIR$/single_link_list_recurrent.py" />
         <option value="$PROJECT_DIR$/双向链表.py" />
+        <option value="$PROJECT_DIR$/排序算法/冒泡排序.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-10" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -131,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,18 +132,25 @@
               <item name="data-structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-structure" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data-structure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structure" type="462c0819:PsiDirectoryNode" />
+              <item name="排序算法" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Introduce-of-DL" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\人工智能\data-structure\链表" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\人工智能\data-structure" />
     </key>
@@ -166,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.双向链表">
+  <component name="RunManager" selected="Python.冒泡排序">
     <configuration name="双向链表" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,7 +180,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/双向链表.py" />
+      <option name="SCRIPT_NAME" value="D:\人工智能\data-structure\链表\双向链表.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="冒泡排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data-structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/排序算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/排序算法/冒泡排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +222,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\人工智能\data-structure\single_linked_list.py" />
+      <option name="SCRIPT_NAME" value="D:\人工智能\data-structure\链表\single_linked_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +243,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/single_link_list_recurrent.py" />
+      <option name="SCRIPT_NAME" value="D:\人工智能\data-structure\链表\single_link_list_recurrent.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,7 +264,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/single_linked_list.py" />
+      <option name="SCRIPT_NAME" value="D:\人工智能\data-structure\链表\single_linked_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,6 +275,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.冒泡排序" />
         <item itemvalue="Python.双向链表" />
         <item itemvalue="Python.single_link_list_recurrent" />
         <item itemvalue="Python.single_linked_list" />
@@ -275,22 +298,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19286658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.06657224" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4022663" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3753541" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27053824" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.45892352" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,23 +341,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/single_linked_list.py">
+    <entry file="file://$PROJECT_DIR$/链表/single_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="e#371#600#0" />
-            <element signature="e#633#840#0" />
-            <element signature="e#882#1281#0" />
-            <element signature="e#1364#1554#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/single_link_list_recurrent.py">
+    <entry file="file://$PROJECT_DIR$/链表/single_link_list_recurrent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        <state relative-caret-position="984">
+          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
           <folding>
             <element signature="e#107#170#0" />
             <element signature="e#313#648#0" />
@@ -345,40 +361,32 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="27216">
           <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/双向链表.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/链表/双向链表.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#50#166#0" />
-            <element signature="e#205#222#0" />
-            <element signature="e#329#441#0" />
-            <element signature="e#499#947#0" />
-            <element signature="e#661#875#0" />
-            <element signature="e#1058#1179#0" />
-            <element signature="e#768#822#0" />
-            <element signature="e#1269#2083#0" />
-            <element signature="e#962#1160#0" />
-            <element signature="e#1005#1477#0" />
-            <element signature="e#1132#1191#0" />
-            <element signature="e#1307#1332#0" />
-            <element signature="e#2221#2416#0" />
-            <element signature="e#1457#1512#0" />
-            <element signature="e#2414#3124#0" />
-            <element signature="e#2060#2123#2" />
-            <element signature="e#2660#3124#0" />
-            <element signature="e#2706#3103#0" />
-            <element signature="e#2992#3051#0" />
-            <element signature="e#2973#3043#0" />
-            <element signature="e#3328#3715#0" />
-            <element signature="e#3484#3653#0" />
-            <element signature="e#3572#3624#0" />
-          </folding>
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-708247146/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="4137" lean-forward="true" selection-start-line="4137" selection-end-line="4137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序算法/冒泡排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
