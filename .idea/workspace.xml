@@ -43,10 +43,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/双向链表.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-580">
-              <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
+            <state relative-caret-position="120">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
+                <element signature="e#50#166#0" />
+                <element signature="e#205#222#0" />
+                <element signature="e#329#441#0" />
+                <element signature="e#499#947#0" />
+                <element signature="e#661#875#0" />
+                <element signature="e#1058#1179#0" />
+                <element signature="e#768#822#0" />
                 <element signature="e#1269#2083#0" />
+                <element signature="e#962#1160#0" />
+                <element signature="e#1005#1477#0" />
+                <element signature="e#1132#1191#0" />
+                <element signature="e#1307#1332#0" />
+                <element signature="e#2221#2416#0" />
+                <element signature="e#1457#1512#0" />
+                <element signature="e#2414#3124#0" />
+                <element signature="e#2060#2123#2" />
+                <element signature="e#2660#3124#0" />
+                <element signature="e#2706#3103#0" />
+                <element signature="e#2992#3051#0" />
+                <element signature="e#2973#3043#0" />
+                <element signature="e#3328#3715#0" />
+                <element signature="e#3484#3653#0" />
+                <element signature="e#3572#3624#0" />
               </folding>
             </state>
           </provider>
@@ -255,12 +277,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19286658" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19286658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3569405" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.06657224" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4022663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,10 +352,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/双向链表.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-580">
-          <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
+        <state relative-caret-position="120">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
+            <element signature="e#50#166#0" />
+            <element signature="e#205#222#0" />
+            <element signature="e#329#441#0" />
+            <element signature="e#499#947#0" />
+            <element signature="e#661#875#0" />
+            <element signature="e#1058#1179#0" />
+            <element signature="e#768#822#0" />
             <element signature="e#1269#2083#0" />
+            <element signature="e#962#1160#0" />
+            <element signature="e#1005#1477#0" />
+            <element signature="e#1132#1191#0" />
+            <element signature="e#1307#1332#0" />
+            <element signature="e#2221#2416#0" />
+            <element signature="e#1457#1512#0" />
+            <element signature="e#2414#3124#0" />
+            <element signature="e#2060#2123#2" />
+            <element signature="e#2660#3124#0" />
+            <element signature="e#2706#3103#0" />
+            <element signature="e#2992#3051#0" />
+            <element signature="e#2973#3043#0" />
+            <element signature="e#3328#3715#0" />
+            <element signature="e#3484#3653#0" />
+            <element signature="e#3572#3624#0" />
           </folding>
         </state>
       </provider>

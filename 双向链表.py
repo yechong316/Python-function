@@ -8,6 +8,7 @@ class Node:
         self.next = None
         self.pre = None
 
+
 class Double_link_list:
 
     def __init__(self, node=None):
@@ -38,6 +39,7 @@ class Double_link_list:
         # 定义二者之间的关系
         current_node.next = node
         node.pre = current_node
+
     def travel(self):
 
         # 功能：依次打印出链表的元素
@@ -137,8 +139,6 @@ class Double_link_list:
             count += 1
             cur = cur.next
 
-
-
     def search(self, ele):
 
         cur = self._head
@@ -159,11 +159,6 @@ class Double_link_list:
 
         if count > self.length():
             print('未找到该节点')
-
-
-
-
-
 
 
 if __name__ == '__main__':
