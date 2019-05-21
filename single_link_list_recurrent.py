@@ -57,7 +57,7 @@ class RecurrentLinkList:
             self._head = node
             node.next = first_node
 
-        elif pos > (self.length()):
+        elif pos > self.length():
             self.append(ele)
 
         else:
