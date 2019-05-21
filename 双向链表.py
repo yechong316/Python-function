@@ -50,7 +50,7 @@ class Double_link_list:
             node.next = first_node
             first_node.pre = node
 
-            # 定义带插节点与当前节点的前一个节点的关系
+            # 定义dai插节点与当前节点的前一个节点的关系
             self._head = node
             node.pre = self._head
 
@@ -89,6 +89,61 @@ class Double_link_list:
         print(count)
         return count
 
+    def delete_node(self, ele):
+        '''
+        根据元素名称来删除节点
+        :param ele: 待删除节点的元素
+        :return: 无
+        '''
+        cur = self._head
+        if self.is_empty() == None: print('当前链表为空')
+        count = 1
+
+        while cur.ele != ele:
+            if cur.next == None:
+                print('当前链表不存在该元素')
+                break
+            cur = cur.next
+            count += 1
+
+        if cur.ele == ele:
+
+            back_node = cur.next
+
+            pre_node = cur.pre
+
+            if pre_node == self._head:
+                self._head = back_node
+            else: pre_node.next = back_node
+
+            if back_node: back_node.pre = pre_node
+        # else:
+
+    def search(self, ele):
+
+        count = 1
+        cur = self._head
+        if self.is_empty():
+            print('当前链表为空，不存在该元素')
+            return False
+
+        while cur !=None:
+
+            if cur.ele == ele:
+                print('{}是第{}个节点'.format(ele, count))
+
+                return True
+            cur = cur.next
+            count += 1
+
+        # if count == self.length():
+        #
+        # pass
+
+
+
+
+
 
 
 if __name__ == '__main__':
@@ -102,9 +157,12 @@ if __name__ == '__main__':
     ll.append('f')
     ll.append('c')
     ll.append('e')
-    ll.travel()
+    # ll.travel()
     ll.length()
     ll.insert(-10, 'd')
     ll.travel()
+    ll.delete_node('e')
+    ll.travel()
+    ll.search('c')
     # print(ll.is_empty())
     # print(ll.length())
