@@ -3,6 +3,7 @@ class Node:
     def __init__(self, ele):
         assert ele != None, '创建节点时，不允许传入空值，请重新输入！'
 
+        # 双向链表里面的节点包含3部分内容，数据本身+前指针+后指针
         self.ele = ele
         self.next = None
         self.pre = None
@@ -15,32 +16,45 @@ class Double_link_list:
 
     def add(self, item):
 
+        # 当链表为空时，初次添加节点使用此函数，定义二者之间的关系
         node = Node(item)
         self._head = node
+        node.pre = self._head
 
     def append(self, item):
 
+        # 给链表末尾添加元素时
         node = Node(item)
+
+        # 判断是否为空，空链表之间采用上面的add函数
         if self.is_empty():
             self.add(node)
+
+        # 如果当前节点的下一个节点指向空，即遍历至最后一个节点时，终止遍历
         current_node = self._head
         while current_node.next != None:
             current_node = current_node.next
 
+        # 定义二者之间的关系
         current_node.next = node
         node.pre = current_node
     def travel(self):
 
+        # 功能：依次打印出链表的元素
         cur = self._head
         if self.is_empty():
             print('当前链表为空！')
         else:
+
+            # 当节点指向None时，终止运行
             while cur.next != None:
                 print(cur.ele, end=' ')
                 cur = cur.next
             print(cur.ele)
 
     def insert(self, pos, ele):
+
+        # 在链表中间位置添加元素，要考虑3点：跟pos小于0或者大于链表长度的特殊情况需要特殊对待
         if pos < 0 :
 
             node = Node(ele)
@@ -80,13 +94,15 @@ class Double_link_list:
     def is_empty(self): return self._head == None
 
     def length(self):
+
+        # 计数器
         count = 1
         current_node = self._head
 
         while current_node.next != None:
             count += 1
             current_node = current_node.next
-        print(count)
+        # print(count)
         return count
 
     def delete_node(self, ele):
@@ -97,48 +113,52 @@ class Double_link_list:
         '''
         cur = self._head
         if self.is_empty() == None: print('当前链表为空')
+
         count = 1
+        while count <= self.length(): # 计数器从1开始直至整个链表
 
-        while cur.ele != ele:
-            if cur.next == None:
-                print('当前链表不存在该元素')
-                break
-            cur = cur.next
+            # 如果当前元素是要被删除的元素进入下面的判断条件里面，不是则遍历至下一个节点
+            if cur.ele == ele:
+
+                back_node = cur.next
+
+                if count == 1: # 被删除节点是第一个，则仅仅需要将头指针指向第二个节点即可
+
+                    self._head = back_node
+                elif count == self.length():# 被删除节点是最后一个，则倒数第二个节点的next指向空
+                    pre_node = cur.pre
+                    pre_node.next = None
+                else:
+
+                    # 被指向节点是中间节点，则进入被删除节点的前后分别定义指针关系即可
+                    pre_node = cur.pre
+                    pre_node.next = back_node
+                    back_node.pre = pre_node
             count += 1
+            cur = cur.next
 
-        if cur.ele == ele:
 
-            back_node = cur.next
-
-            pre_node = cur.pre
-
-            if pre_node == self._head:
-                self._head = back_node
-            else: pre_node.next = back_node
-
-            if back_node: back_node.pre = pre_node
-        # else:
 
     def search(self, ele):
 
-        count = 1
         cur = self._head
-        if self.is_empty():
-            print('当前链表为空，不存在该元素')
-            return False
+        if self.is_empty() == None: print('当前链表为空')
 
-        while cur !=None:
+        count = 1
+        while count <= self.length():  # 计数器从1开始直至整个链表
 
+            # 如果当前元素是要被删除的元素进入下面的判断条件里面，不是则遍历至下一个节点
             if cur.ele == ele:
-                print('{}是第{}个节点'.format(ele, count))
 
-                return True
-            cur = cur.next
+                print('节点位置：{}'.format(count))
+                # 跳出循环体，默认只搜索第一个发现的元素
+                break
+
             count += 1
+            cur = cur.next
 
-        # if count == self.length():
-        #
-        # pass
+        if count > self.length():
+            print('未找到该节点')
 
 
 
@@ -158,11 +178,12 @@ if __name__ == '__main__':
     ll.append('c')
     ll.append('e')
     # ll.travel()
-    ll.length()
+    length = ll.length()
+    print('链表长度为：', length)
     ll.insert(-10, 'd')
     ll.travel()
-    ll.delete_node('e')
+    ll.delete_node('a')
     ll.travel()
-    ll.search('c')
+    ll.search('f得到')
     # print(ll.is_empty())
     # print(ll.length())
