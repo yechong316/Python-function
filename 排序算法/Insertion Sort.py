@@ -1,15 +1,20 @@
 def Insertion_Sort(alist):
-    assert alist != None, 'Ntype dont support sorted！'
+    assert alist != None, 'None type dont support sorted！'
 
     new_list = [alist[0]]
     for old in range(1, len(alist)):
 
         old_num = alist[old]
-        for new in range(len(new_list) - 1, 0, -1):
+        for new in range(len(new_list) - 1, -1, -1):
 
             if old_num >= new_list[new]:
 
-                new_list.insert(new + 1, alist[old])
+                new_list.insert(new + 1, old_num) # 插入排序中，索引号是多少，则插入完毕新元素的索引号即在哪里
+                break
+
+            if new == 0:
+                    new_list.insert(0, old_num)
+                # break
         # alist.remove(old_num)
 
 
@@ -17,6 +22,6 @@ def Insertion_Sort(alist):
 
 
 if __name__ == '__main__':
-    list = [-30,10,4324 ]
+    list = [-30,10,-50, -350 ]
     l = Insertion_Sort(list)
     print(l)
