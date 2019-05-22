@@ -17,6 +17,6 @@ def Selection_Sort(alist):
 
 
 if __name__ == '__main__':
-    list = [-30, 20,-10,50,250]
+    list = [-30, 20, -10, 50, 250]
     l = Selection_Sort(list)
     print(l)
