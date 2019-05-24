@@ -9,7 +9,8 @@ def Insertion_Sort(alist):
 
             if old_num >= new_list[new]:
 
-                new_list.insert(new + 1, old_num) # 插入排序中，索引号是多少，则插入完毕新元素的索引号即在哪里
+                # 插入排序中，索引号是多少，则插入完毕新元素的索引号即在哪里
+                new_list.insert(new + 1, old_num)
 
                 # 如果待排数字比第一个数字大，则插入到索引号1的位置，不执行下面的if条件
                 break
