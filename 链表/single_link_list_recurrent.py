@@ -87,6 +87,7 @@ class RecurrentLinkList:
             print(count)
             return count
 
+
 if __name__ == '__main__':
 
     # a = Node(2)

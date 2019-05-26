@@ -21,12 +21,14 @@ class Link_list:
 
         node = Node(item)
         if self.is_empty():
-            self._head = node
-        current_node = self._head
-        while current_node.next != None:
-            current_node = current_node.next
+            self.add(item)
+        else:
 
-        current_node.next = node
+            current_node = self._head
+            while current_node.next != None:
+                current_node = current_node.next
+
+            current_node.next = node
 
     def travel(self):
 
@@ -63,8 +65,77 @@ class Link_list:
         while current_node != None:
             count += 1
             current_node = current_node.next
-        print(count)
+        # print(count)
         return count
+
+    def list2link_list(self, list):
+
+        for i in list:
+
+            self.append(i)
+
+    def search_node(self, index):
+        '''
+        等价于列表中的索引功能
+        :param index: 列表中的索引号
+        :return:
+        '''
+        if self.is_empty():
+            print('当前链表为空！')
+            return None
+        else:
+            # 索引号小于0， 则print第一个节点的编号
+            if index < 0:
+
+                return self._head.ele
+
+            elif index > self.length():
+
+                # 索引号大于程度， 则print最后一个节点的编号
+                cur = self.length()
+                while cur.next != None:
+                    cur = cur.next
+
+                return cur.ele
+            else:
+
+                # 索引号在中间
+                current_node = self._head
+                count = 0
+                while count != index:
+                    current_node = current_node.next
+                    count += 1
+
+                return current_node.ele
+
+    def modefiled(self, index, new_ele):
+        if self.is_empty():
+            print('当前链表为空！')
+            return None
+        else:
+            # 索引号小于0， 则替换第一个节点的编号
+            if index < 0:
+
+                self._head.ele = new_ele
+
+            elif index > self.length():
+
+                # 索引号大于程度， 则替换最后一个节点的编号
+                cur = self.length()
+                while cur.next != None:
+                    cur = cur.next
+
+                cur.ele = new_ele
+            else:
+
+                # 索引号在中间
+                current_node = self._head
+                count = 0
+                while count != index:
+                    current_node = current_node.next
+                    count += 1
+
+                current_node.ele = new_ele
 
 
 
