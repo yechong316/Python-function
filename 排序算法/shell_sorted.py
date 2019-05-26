@@ -40,9 +40,9 @@ def shell_sorted(alist):
 
 if __name__ == '__main__':
     n_samples = 9
-    alist = np.random.randint(-20, 20, size=n_samples)
-    print('原始序列：', alist)
+    alist = np.random.randint(-30, 30, size=n_samples)
+    print('排序前：', alist)
     l = shell_sorted(alist)
 
     # l = [1] * 10
-    print(l)
+    print('排序后：', l)
