@@ -16,12 +16,12 @@ class RecurrentLinkList:
 
     def append(self, item):
 
-        node = Node(item)
+
         if self.is_empty():
 
-            self.add(node)
+            self.add(item)
         else:
-
+            node = Node(item)
             first_node = self._head
             current_node = self._head
             while current_node.next != first_node:
@@ -87,6 +87,14 @@ class RecurrentLinkList:
             print(count)
             return count
 
+    def list2rll(self, list):
+
+        for i in list:
+
+            self.append(i)
+
+    def delete_node(self, node):
+        pass
 
 if __name__ == '__main__':
 

@@ -5,7 +5,7 @@ class Queue:
     def add_head(self, ele):  self._list.insert(0, ele)
 
     def add_end(self, ele):  self._list.insert(len(self._list), ele)
-    
+
 
     def pop(self):
 

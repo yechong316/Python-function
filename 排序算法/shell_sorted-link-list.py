@@ -188,7 +188,7 @@ if __name__ == '__main__':
     print('排序前：', link_list)
 
     # ##################
-    # 列表 -》 链表
+    # 列表 -》 线性表
     # ##################
     ll = Link_list()
     ll.list2link_list(link_list)
