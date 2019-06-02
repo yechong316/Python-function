@@ -67,16 +67,7 @@ def Josef(list, num=7):
     return ll._head
 
 
-
-
-
-
-
-
-
-
 a = list(range(1, 38))
-
 ysf_node = Josef(a)
 
 print('最佳的人选:', ysf_node.ele)
