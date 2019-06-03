@@ -27,24 +27,27 @@ class Tree:
     def add(self, ele):
 
         node = Node(ele)
-        root = self.root
-        if root is None:
+        if self.root is None:
             self.root = node
             return
         
-        quene = [root]
+        quene = [self.root]
 
         while quene:
             cur = quene.pop(0)
             if cur.lchild is None:
                 cur.lchild = node
                 return
+
             else:
                 quene.append(cur.lchild)
+
             if cur.rchild is None:
                 cur.rchild = node
                 return
+
             else:
+
                 quene.append(cur.rchild)
 
 
