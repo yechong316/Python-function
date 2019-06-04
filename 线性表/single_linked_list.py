@@ -137,6 +137,23 @@ class Link_list:
 
                 current_node.ele = new_ele
 
+    def reversed(self):
+        if self.is_empty(): return
+        list = []
+
+        cur = self._head
+        length = self.length()
+        count = 0
+        while count != length:
+
+            list.append(cur.ele)
+            cur = cur.next
+            count += 1
+        l = reversed(list)
+        new = Link_list()
+        for i in l:
+            new.append(i)
+        return new
 
 
 if __name__ == '__main__':
@@ -145,12 +162,16 @@ if __name__ == '__main__':
     ll = Link_list()
     # ll.travel()
     ll.add('a')
-    ll.travel()
+    # ll.travel()
     ll.append('b')
-    ll.append('c')
+    # ll.append('c')
+    # ll.travel()
+    # ll.length()
+    # ll.insert(2, 'd')
     ll.travel()
-    ll.length()
-    ll.insert(2, 'd')
-    ll.travel()
+    l = ll.reversed()
+    l.travel()
+
+    # print(l)
     # print(ll.is_empty())
     # print(ll.length())
