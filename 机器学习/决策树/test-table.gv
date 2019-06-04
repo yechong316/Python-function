@@ -1,0 +1,21 @@
+// The Test Table
+digraph {
+	A [label="root_data:labels"]
+	B [label=child_data_1]
+	C [label=child_data_2]
+	D [label=child_child_data_1_1]
+	E [label=child_child_data_1_2]
+	F [label=child_child_data_2_1]
+	G [label=child_child_data_2_2]
+	A -> B
+	A -> C
+	B -> D
+	B -> E
+	C -> F
+	C -> G
+	a [label="root_data:labels"]
+	a [label=child_data_1]
+	a -> a
+	b [label=child_data_2]
+	a -> b
+}
