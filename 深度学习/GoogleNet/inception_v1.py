@@ -31,7 +31,7 @@ from tensorflow.python.ops import variable_scope
 
 trunc_normal = lambda stddev: init_ops.truncated_normal_initializer(0.0, stddev)
 
-
+# 这个函数是Googlenet里面的从开头到后面的卷积，拼接的所有功能
 def inception_v1_base(inputs, final_endpoint='Mixed_5c', scope='InceptionV1'):
   """Defines the Inception V1 base architecture.
 
@@ -65,43 +65,57 @@ def inception_v1_base(inputs, final_endpoint='Mixed_5c', scope='InceptionV1'):
           [layers.conv2d, layers_lib.max_pool2d], stride=1, padding='SAME'):
         end_point = 'Conv2d_1a_7x7'
         net = layers.conv2d(inputs, 64, [7, 7], stride=2, scope=end_point)
-
+        print('after Conv2d_1a_7x7, net.shape：', net.shape)
         end_points[end_point] = net
         if final_endpoint == end_point:
           return net, end_points
 
         end_point = 'MaxPool_2a_3x3'
         net = layers_lib.max_pool2d(net, [3, 3], stride=2, scope=end_point)
+        print('after {}, net.shape：{}'.format(end_point, net.shape))
         end_points[end_point] = net
         if final_endpoint == end_point:
           return net, end_points
 
         end_point = 'Conv2d_2b_1x1'
         net = layers.conv2d(net, 64, [1, 1], scope=end_point)
+        print('after {}, net.shape：{}'.format(end_point, net.shape))
         end_points[end_point] = net
         if final_endpoint == end_point:
           return net, end_points
 
         end_point = 'Conv2d_2c_3x3'
         net = layers.conv2d(net, 192, [3, 3], scope=end_point)
+        print('after {}, net.shape：{}'.format(end_point, net.shape))
         end_points[end_point] = net
         if final_endpoint == end_point:
           return net, end_points
 
         end_point = 'MaxPool_3a_3x3'
         net = layers_lib.max_pool2d(net, [3, 3], stride=2, scope=end_point)
+        print('after {}, net.shape：{}'.format(end_point, net.shape))
         end_points[end_point] = net
         if final_endpoint == end_point:
           return net, end_points
 
         end_point = 'Mixed_3b'
         with variable_scope.variable_scope(end_point):
+
+          # 开始构建inception层
+
           with variable_scope.variable_scope('Branch_0'):
+
+            # 分支1 --- 1 * 1 卷积
             branch_0 = layers.conv2d(net, 64, [1, 1], scope='Conv2d_0a_1x1')
+          print('after {}, branch_0.shape：{}'.format(end_point, branch_0.shape))
           with variable_scope.variable_scope('Branch_1'):
+
+            # 1 X 1 X 96 + 3 X 3 X 128 两个卷积核
             branch_1 = layers.conv2d(net, 96, [1, 1], scope='Conv2d_0a_1x1')
+            print('after {}, branch_1.shape：{}'.format(end_point, branch_1.shape))
             branch_1 = layers.conv2d(
                 branch_1, 128, [3, 3], scope='Conv2d_0b_3x3')
+
           with variable_scope.variable_scope('Branch_2'):
             branch_2 = layers.conv2d(net, 16, [1, 1], scope='Conv2d_0a_1x1')
             branch_2 = layers.conv2d(
@@ -305,7 +319,7 @@ def inception_v1_base(inputs, final_endpoint='Mixed_5c', scope='InceptionV1'):
           return net, end_points
     raise ValueError('Unknown final endpoint %s' % final_endpoint)
 
-
+# 这个函数是调用上面的base函数，再加上一个分类器，返回一个，【None， 类别】的参数
 def inception_v1(inputs,
                  num_classes=1000,
                  is_training=True,
@@ -366,7 +380,6 @@ def inception_v1(inputs,
         end_points['Logits'] = logits
         end_points['Predictions'] = prediction_fn(logits, scope='Predictions')
   return logits, end_points
-
 
 inception_v1.default_image_size = 224
 
