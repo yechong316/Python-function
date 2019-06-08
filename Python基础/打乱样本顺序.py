@@ -1,6 +1,6 @@
 import numpy as np
 
-def mess_dataset_order(train_data, train_label, dimention=2):
+def mess_dataset_order(train_data, train_label=None, dimention=2):
 
     '''
     将X,Y数据集乱序，并且返回，要求输入训练集的维度，默认label的维度为1
