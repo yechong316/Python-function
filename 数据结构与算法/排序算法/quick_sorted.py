@@ -6,7 +6,7 @@ def quick_sorted(list, first, last):
     coutn = 1
     if first >= last:
         coutn += 1
-        print('仅有一个元素，无需排序！',coutn)
+        # print('仅有一个元素，无需排序！',coutn)
         return
 
     mid_value = list[first]

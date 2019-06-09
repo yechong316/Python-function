@@ -1,6 +1,6 @@
 import numpy as np
 
-def trian_test_split(X, Y=None, test_size=0.2):
+def train_test_split(X, Y=None, test_size=0.2):
 
     '''
     将X,Y数据集乱序，并且返回，要求输入训练集的维度，默认label的维度为1
