@@ -1,6 +1,6 @@
 import numpy as np
 
-def train_test_split(X, Y=None, test_size=0.2):
+def train_test_split(X, Y=None, train_size=0.2):
 
     '''
     将X,Y数据集乱序，并且返回，要求输入训练集的维度，默认label的维度为1
@@ -10,17 +10,19 @@ def train_test_split(X, Y=None, test_size=0.2):
     :param dimention: 训练集的维度
     :return: 乱序后的训练集和label
     '''
-    assert len(X) == len(Y)
 
-    permutation = np.random.permutation(len(X))
+    if type(X) != np.ndarray:
+        X = np.array(X)
+    x = X[np.random.permutation(len(X))]
+    split = int(len(x) * train_size)
 
-    split = int(len(X) * (1 - test_size))
+    x_train, x_test = x[:split], x[split:]
 
-    x_train, x_test = X[:split], x[split:]
-    y_train, y_test = Y[:split], x[split:]
-
-
-    return x_train, x_test, y_train, y_test
+    if Y:
+        y = Y[np.random.permutation(len(Y))]
+        y_train, y_test = y[:split], y[split:]
+        return x_train, x_test, y_train, y_test
+    return x_train, x_test
 if __name__ == '__main__':
     train_data = np.array([
         [1, 2],
