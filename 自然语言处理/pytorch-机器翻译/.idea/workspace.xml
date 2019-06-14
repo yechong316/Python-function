@@ -11,31 +11,29 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/seq2seq_translation_tutorial.py">
+        <entry file="file://$PROJECT_DIR$/translation_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="293" column="58" selection-start-line="293" selection-start-column="53" selection-end-line="293" selection-end-column="60" />
+            <state relative-caret-position="139">
+              <caret line="386" selection-start-line="386" selection-end-line="391" selection-end-column="16" />
               <folding>
                 <element signature="e#24#89#0" expanded="true" />
                 <element signature="e#5505#6105#0" />
                 <element signature="e#7152#7744#0" />
-                <element signature="e#7747#7817#0" />
+                <element signature="e#8395#8527#0" />
+                <element signature="e#5519#5576#0" />
+                <element signature="e#5917#6439#0" />
+                <element signature="e#2937#3105#0" />
+                <element signature="e#17680#17833#0" />
+                <element signature="e#17867#18023#0" />
+                <element signature="e#12613#15079#0" />
                 <element signature="e#20203#20562#0" />
+                <element signature="e#15478#17227#0" />
                 <element signature="e#24548#25858#0" />
+                <element signature="e#18785#19336#0" />
                 <element signature="e#9302#9384#0" />
                 <element signature="e#28447#28937#0" />
-                <element signature="e#28990#29218#0" />
                 <element signature="e#21192#21351#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/输入框.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -93,6 +91,7 @@
       <find>AttnDecoderRNN</find>
       <find>evaluateRandomly</find>
       <find>字典没有做过词哦</find>
+      <find>evaluate</find>
     </findStrings>
     <replaceStrings>
       <replace>data_util</replace>
@@ -103,7 +102,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/seq2seq_translation_tutorial.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/translation_main.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -117,6 +116,7 @@
         <option value="$PROJECT_DIR$/data/data_util.py" />
         <option value="$PROJECT_DIR$/输入框.py" />
         <option value="$PROJECT_DIR$/seq2seq_translation_tutorial.py" />
+        <option value="$PROJECT_DIR$/translation_main.py" />
       </list>
     </option>
   </component>
@@ -138,11 +138,6 @@
             <path>
               <item name="pytorch-机器翻译" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytorch-机器翻译" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytorch-机器翻译" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytorch-机器翻译" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,7 +244,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seq2seq_translation_tutorial.py" />
+      <option name="SCRIPT_NAME" value="D:\自然语言处理实战\pytorch-机器翻译\translation_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,6 +277,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.18956406" />
@@ -292,8 +288,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26062322" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41218132" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2592068" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33994335" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -306,13 +302,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/seq2seq_translation_tutorial.py</url>
-          <line>217</line>
+          <url>file://$PROJECT_DIR$/translation_main.py</url>
+          <line>201</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/seq2seq_translation_tutorial.py</url>
-          <line>298</line>
+          <url>file://$PROJECT_DIR$/translation_main.py</url>
+          <line>282</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
@@ -369,11 +365,6 @@
       </expression>
       <expression>
         <expression-string>target_tensor[0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>decoder_output.topk(1)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -484,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/输入框.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/eng_fra_5000.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1488">
@@ -498,20 +482,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seq2seq_translation_tutorial.py">
+    <entry file="file://$PROJECT_DIR$/data/_about.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/输入框.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="293" column="58" selection-start-line="293" selection-start-column="53" selection-end-line="293" selection-end-column="60" />
+        <state relative-caret-position="216">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/translation_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="386" selection-start-line="386" selection-end-line="391" selection-end-column="16" />
           <folding>
             <element signature="e#24#89#0" expanded="true" />
             <element signature="e#5505#6105#0" />
             <element signature="e#7152#7744#0" />
-            <element signature="e#7747#7817#0" />
+            <element signature="e#8395#8527#0" />
+            <element signature="e#5519#5576#0" />
+            <element signature="e#5917#6439#0" />
+            <element signature="e#2937#3105#0" />
+            <element signature="e#17680#17833#0" />
+            <element signature="e#17867#18023#0" />
+            <element signature="e#12613#15079#0" />
             <element signature="e#20203#20562#0" />
+            <element signature="e#15478#17227#0" />
             <element signature="e#24548#25858#0" />
+            <element signature="e#18785#19336#0" />
             <element signature="e#9302#9384#0" />
             <element signature="e#28447#28937#0" />
-            <element signature="e#28990#29218#0" />
             <element signature="e#21192#21351#0" />
           </folding>
         </state>
