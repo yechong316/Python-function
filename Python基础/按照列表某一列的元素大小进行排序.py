@@ -1,26 +1,23 @@
-from collections import Counter
-import numpy as np
-import codecs
+'''
 
+利用set自动去重
+'''
 
-with codecs.open("data/pos.txt", "r", encoding='utf-8') as f:
-    pos_text = f.read()
+if __name__ == '__main__':
 
-# neg数据
-with codecs.open("data/neg.txt", "r", encoding='utf-8') as f:
-    neg_text = f.read()
+    a = set()
 
+    for _ in range(100):
 
-total_text = pos_text + "\n" + neg_text
-c = Counter(total_text.split())
-d = sorted(c.most_common(), key=lambda x: x[1])
-# c.most_common(5)
-count = 0
-for i in d:
+        a.add(1)
+        a.add(3)
 
-    if i[1] == 1:
-        print(i)
-        count += 1
+    b = set()
+    b.add(3)
+    b.add(5)
 
+    # 对两个集合取交集
+    print(b&a)
 
-print(count)
+    # 对两个集合取并集
+    print(b|a)
