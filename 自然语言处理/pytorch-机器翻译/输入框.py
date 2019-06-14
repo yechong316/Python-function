@@ -1,0 +1,12 @@
+
+
+
+
+import sys
+
+
+
+
+
+
+print(sentence)
