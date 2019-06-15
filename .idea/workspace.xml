@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d59c75bf-da62-4200-94c0-e60293b356a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构与算法/排序算法/quick_sorted.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/排序算法/quick_sorted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLP/pytorch-translation/data/dan-eng/dan-eng.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/pytorch-translation/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/pytorch-translation/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/pytorch-translation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/pytorch-translation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/pytorch-translation/data/data_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/pytorch-translation/data/data_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/pytorch-translation/data/eng-fra.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/pytorch-translation/data/fra-eng/eng-fra.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/pytorch-translation/data/eng_fra_5000.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/pytorch-translation/data/fra-eng/eng_fra_5000.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/pytorch-translation/data/数据切割.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/pytorch-translation/translation_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/pytorch-translation/translation_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summary of artificial intelligence knowledge points.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Summary of artificial intelligence knowledge points.xmind" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +27,7 @@
         <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/92-reverse_link_list_2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-              <folding>
-                <element signature="e#92#168#0" />
-              </folding>
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -41,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/single_linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1536">
-              <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+              <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
               <folding>
                 <element signature="e#1686#2468#0" />
                 <element signature="e#2519#3213#0" />
@@ -155,9 +159,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="700" />
-    <option name="y" value="50" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-73" />
+    <option name="y" value="173" />
     <option name="width" value="1605" />
     <option name="height" value="1050" />
   </component>
@@ -245,6 +249,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="匿名函数" type="PythonConfigurationType" factoryName="Python">
+      <module name="data-structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python基础" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础/匿名函数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="92-reverse_link_list_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,7 +291,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="匿名函数" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="整数转换为任意进制字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,11 +299,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python基础" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/递归" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础/匿名函数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/递归/整数转换为任意进制字符串.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -455,27 +480,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="整数转换为任意进制字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data-structure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/递归" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/递归/整数转换为任意进制字符串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="find_middle_node" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -572,9 +576,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-58" y="139" width="1284" height="840" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496614" visible="true" weight="0.167107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496614" visible="true" weight="0.20272435" />
       <window_info id="Structure" order="1" sideWeight="0.5010482" side_tool="true" weight="0.2007926" />
       <window_info id="Favorites" order="2" sideWeight="0.5022523" side_tool="true" weight="0.17239101" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -821,6 +826,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/92-reverse_link_list_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/876-find_middle_node.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -831,21 +843,11 @@
     <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/single_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1536">
-          <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
           <folding>
             <element signature="e#1686#2468#0" />
             <element signature="e#2519#3213#0" />
             <element signature="e#3247#3599#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/92-reverse_link_list_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding>
-            <element signature="e#92#168#0" />
           </folding>
         </state>
       </provider>

@@ -9,47 +9,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/translation_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="386" selection-start-line="386" selection-end-line="391" selection-end-column="16" />
+            <state relative-caret-position="419">
+              <caret line="405" column="15" selection-start-line="405" selection-start-column="15" selection-end-line="405" selection-end-column="15" />
               <folding>
                 <element signature="e#24#89#0" expanded="true" />
-                <element signature="e#5505#6105#0" />
-                <element signature="e#7152#7744#0" />
-                <element signature="e#8395#8527#0" />
-                <element signature="e#5519#5576#0" />
-                <element signature="e#5917#6439#0" />
-                <element signature="e#2937#3105#0" />
-                <element signature="e#17680#17833#0" />
-                <element signature="e#17867#18023#0" />
-                <element signature="e#12613#15079#0" />
-                <element signature="e#20203#20562#0" />
-                <element signature="e#15478#17227#0" />
-                <element signature="e#24548#25858#0" />
-                <element signature="e#18785#19336#0" />
-                <element signature="e#9302#9384#0" />
-                <element signature="e#28447#28937#0" />
-                <element signature="e#21192#21351#0" />
+                <element signature="e#7545#7607#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/seq2seq.py">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/torch/serialization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-              <folding>
-                <element signature="e#394#1051#0" />
-                <element signature="e#1053#1123#0" />
-                <element signature="e#2005#2697#0" />
-                <element signature="e#2699#2769#0" />
-                <element signature="e#4338#6291#0" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="381" selection-start-line="381" selection-end-line="381" />
             </state>
           </provider>
         </entry>
@@ -57,11 +35,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/data_util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            <state relative-caret-position="130">
+              <caret line="18" column="11" selection-start-line="18" selection-end-line="18" selection-end-column="11" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#230#795#0" />
               </folding>
             </state>
           </provider>
@@ -92,6 +69,12 @@
       <find>evaluateRandomly</find>
       <find>字典没有做过词哦</find>
       <find>evaluate</find>
+      <find>split_text</find>
+      <find>path</find>
+      <find>l</find>
+      <find>save_path_enc</find>
+      <find>samples_text_path</find>
+      <find>10</find>
     </findStrings>
     <replaceStrings>
       <replace>data_util</replace>
@@ -99,7 +82,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/translation_main.py" root0="SKIP_INSPECTION" />
@@ -113,46 +96,63 @@
         <option value="$PROJECT_DIR$/bleu测试.py" />
         <option value="$PROJECT_DIR$/result/modle.py" />
         <option value="$PROJECT_DIR$/model/seq2seq.py" />
-        <option value="$PROJECT_DIR$/data/data_util.py" />
         <option value="$PROJECT_DIR$/输入框.py" />
         <option value="$PROJECT_DIR$/seq2seq_translation_tutorial.py" />
+        <option value="$PROJECT_DIR$/data/samplechioce.py" />
+        <option value="$PROJECT_DIR$/data/data_util.py" />
         <option value="$PROJECT_DIR$/translation_main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="pytorch-机器翻译" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytorch-机器翻译" type="462c0819:PsiDirectoryNode" />
+              <item name="pytorch-translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytorch-translation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytorch-translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytorch-translation" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytorch-translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytorch-translation" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../机器翻译" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../知识图谱/QASystemOnMedicalKG-master" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python-function\NLP\pytorch-translation\data\fra-eng" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python-function\NLP\pytorch-translation\result" />
       <recent name="D:\自然语言处理实战\pytorch-机器翻译" />
     </key>
   </component>
@@ -168,28 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.seq2seq_translation_tutorial">
-    <configuration name="数据切割" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pytorch-机器翻译" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\自然语言处理实战\pytorch-机器翻译\data\data_util.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.translation_main">
     <configuration name="输入框" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pytorch-机器翻译" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,6 +211,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="data_util" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pytorch-机器翻译" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/data_util.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="samplechioce" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pytorch-机器翻译" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/samplechioce.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="seq2seq_translation_tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pytorch-机器翻译" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,12 +274,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="translation_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pytorch-机器翻译" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/translation_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.translation_main" />
+        <item itemvalue="Python.data_util" />
+        <item itemvalue="Python.samplechioce" />
         <item itemvalue="Python.seq2seq_translation_tutorial" />
-        <item itemvalue="Python.输入框" />
         <item itemvalue="Python.bleu测试" />
-        <item itemvalue="Python.数据切割" />
       </list>
     </recent_temporary>
   </component>
@@ -277,22 +320,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18956406" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14993395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.1388102" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2592068" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43201134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33994335" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.34985834" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -300,18 +342,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/translation_main.py</url>
-          <line>201</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/translation_main.py</url>
-          <line>282</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -371,27 +401,11 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/机器翻译.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/机器翻译.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-708247146/unicodedata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/eng-fra.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="43968" column="51" lean-forward="true" selection-start-line="43963" selection-start-column="62" selection-end-line="43968" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -409,16 +423,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/eng-fra.txt_16713.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="16712" column="42" selection-start-line="16712" selection-start-column="42" selection-end-line="16712" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/text_16713.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/eng-fra.txt_16713.txt" />
+    <entry file="file://$PROJECT_DIR$/data/text_16713.txt" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/torch/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -433,13 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bleu测试.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bleu测试.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-708247146/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -447,73 +447,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/modle.py">
+    <entry file="file://$PROJECT_DIR$/result/modle.py" />
+    <entry file="file://$PROJECT_DIR$/data/_about.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/data_util.py">
+    <entry file="file://$PROJECT_DIR$/输入框.py" />
+    <entry file="file://$PROJECT_DIR$/model/seq2seq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="240">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/yue-eng/yue.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/fra-eng/eng-fra.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="167130" lean-forward="true" selection-start-line="167130" selection-end-line="167130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dan-eng/dan-eng.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424312">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dan-eng/dan_eng_5000.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/samplechioce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
             <element signature="e#230#795#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/seq2seq.py">
+    <entry file="file://$PROJECT_DIR$/data/fra-eng/eng_fra_5000.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="e#394#1051#0" />
-            <element signature="e#1053#1123#0" />
-            <element signature="e#2005#2697#0" />
-            <element signature="e#2699#2769#0" />
-            <element signature="e#4338#6291#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/eng_fra_5000.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1488">
+        <state relative-caret-position="240">
           <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/_about.txt">
+    <entry file="file://$PROJECT_DIR$/data/dan-eng/dan_eng_4000.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/dan-eng/_about.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/输入框.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="124">
+          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="18" column="11" selection-start-line="18" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/torch/serialization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="381" selection-start-line="381" selection-end-line="381" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/translation_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="386" selection-start-line="386" selection-end-line="391" selection-end-column="16" />
+        <state relative-caret-position="419">
+          <caret line="405" column="15" selection-start-line="405" selection-start-column="15" selection-end-line="405" selection-end-column="15" />
           <folding>
             <element signature="e#24#89#0" expanded="true" />
-            <element signature="e#5505#6105#0" />
-            <element signature="e#7152#7744#0" />
-            <element signature="e#8395#8527#0" />
-            <element signature="e#5519#5576#0" />
-            <element signature="e#5917#6439#0" />
-            <element signature="e#2937#3105#0" />
-            <element signature="e#17680#17833#0" />
-            <element signature="e#17867#18023#0" />
-            <element signature="e#12613#15079#0" />
-            <element signature="e#20203#20562#0" />
-            <element signature="e#15478#17227#0" />
-            <element signature="e#24548#25858#0" />
-            <element signature="e#18785#19336#0" />
-            <element signature="e#9302#9384#0" />
-            <element signature="e#28447#28937#0" />
-            <element signature="e#21192#21351#0" />
+            <element signature="e#7545#7607#0" />
           </folding>
         </state>
       </provider>

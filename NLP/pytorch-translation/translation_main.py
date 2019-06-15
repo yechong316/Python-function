@@ -5,25 +5,55 @@ import unicodedata
 import string
 import re
 import sys
+import os
 import random
 from tqdm import tqdm
+
+
 import torch
 import torch.nn as nn
 import numpy as np
 from torch import optim
 import torch.nn.functional as F
+
+
 from data.data_util import *
 from model.seq2seq import *
-
-
-
-
-
-
 from nltk.translate.bleu_score import sentence_bleu
-MAX_LENGTH = 10
 
-path = './data/{}_{}_{}.txt'.format(sour_lang, target_lang, num_samples)
+
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+save_path_enc = './result/{0}-{1}/{0}-{1}_enc_{2}'.format(sour_lang, target_lang, num_samples)
+save_path_att = './result/{0}-{1}/{0}-{1}_att_{2}'.format(sour_lang, target_lang, num_samples)
+SOS_token = 0
+EOS_token = 1
+teacher_forcing_ratio = 0.8
+hidden_size = 512
+MAX_LENGTH = 10
+drop_out = 0.8
+epochs = 10000
+display = 1000
+MAX_LENGTH = 10
+lr = 0.01
+eng_prefixes = (
+    "i am ", "i m ",
+    "he is", "he s ",
+    "she is", "she s ",
+    "you are", "you re ",
+    "we are", "we re ",
+    "they are", "they re "
+)
+
+
+
+
+bleu_num = 100
+
+
+
+
 
 
 class Lang:
@@ -177,7 +207,7 @@ def train(input_tensor, target_tensor, encoder, decoder, encoder_optimizer, deco
 
 
 
-def trainIters(encoder, decoder, n_iters, net, print_every=1, plot_every=100, learning_rate=0.01):
+def trainIters(encoder, decoder, n_iters, net, print_every=1, plot_every=100, learning_rate=lr):
     start = time.time()
     plot_losses = []
     print_loss_total = 0  # Reset every print_every
@@ -210,14 +240,22 @@ def trainIters(encoder, decoder, n_iters, net, print_every=1, plot_every=100, le
             plot_losses.append(plot_loss_avg)
             plot_loss_total = 0
 
+            # save_dir = './result/{0}-{1}'.format(sour_lang, target_lang)
+            # save_file = '{0}-{1}'.format(sour_lang, target_lang)
+            #
+            #
+            # if os.path.exit(save_dir):
+            #     os.mkdir(save_dir)
+            #
+            # save_path_enc = os.path.join(save_dir, save_file)
+            # save_path_att = os.path.join(save_dir, save_file)
 
-            save_path_enc = './result/spa_eng_enc'
-            save_path_att = './result/spa_eng_att'
+
 
             torch.save(net[0].state_dict(), save_path_enc)
             torch.save(net[1].state_dict(), save_path_att)
 
-    showPlot(plot_losses)
+    # showPlot(plot_losses)
 
 
 
@@ -258,21 +296,10 @@ def evaluate(encoder, decoder, sentence, max_length=MAX_LENGTH):
 
 
 
-def evaluateRandomly(encoder, decoder, pairs, n=10):
-    # input_lang, output_lang, pairs = prepareData(sour_lang, target_lang, path, True)
-    #
-    # encoder1 = EncoderRNN(input_lang.n_words, hidden_size).to(device)  # 输入语种的单词总数和编码器隐藏层单元数送入编码器
-    #
-    # PATH = './result/spa_eng_enc'
-    # encoder1.load_state_dict(torch.load(PATH, map_location=device))
-    #
-    # PATH = './result/spa_eng_att'
-    # attn_decoder1 = AttnDecoderRNN(hidden_size, output_lang.n_words, dropout_p=drop_out, MAX_LENGTH=10).to(
-    #     device)  # 将解码器单元数，输出语种的单词种类，dropout率送入待attention机制的解码器
-    # attn_decoder1.load_state_dict(torch.load(PATH, map_location=device))
+def evaluateRandomly(encoder, decoder, pairs, n=bleu_num):
     scors = []
 
-    print('开始计算BLEU指标，随机抽取{}个句子'.format(n))
+    print('开始计算BLEU指标...')
     for i in tqdm(range(n)):
         pair = random.choice(pairs)
         output_words, _ = evaluate(encoder, decoder, pair[0])
@@ -315,6 +342,10 @@ def evaluateAndShowAttention(input_sentence):
 
 def bleu():
 
+
+    encoder1.load_state_dict(torch.load(save_path_enc, map_location=device))
+    attn_decoder1.load_state_dict(torch.load(save_path_att, map_location=device))
+
     evaluateRandomly(encoder1, attn_decoder1, pairs)
 
 
@@ -325,6 +356,8 @@ def model_train():
 
 def test():
 
+    encoder1.load_state_dict(torch.load(save_path_enc, map_location=device))
+    attn_decoder1.load_state_dict(torch.load(save_path_att, map_location=device))
     count = 1
     while count < 10:
 
@@ -338,6 +371,19 @@ def test():
 
         print('这是偶给您翻译的，看看哈~~~', output_sentence)
 
+data_path = './data/' + samples_text_path
+input_lang, output_lang, pairs = prepareData(sour_lang, target_lang, data_path, True)
+
+encoder1 = EncoderRNN(input_lang.n_words, hidden_size).to(device) # 输入语种的单词总数和编码器隐藏层单元数送入编码器
+
+attn_decoder1 = AttnDecoderRNN(hidden_size, output_lang.n_words, dropout_p=drop_out).to(device) # 将解码器单元数，输出语种的单词种类，dropout率送入待attention机制的解码器
+
+
+
+
+
+
+
 
 def work_mode(num):
 
@@ -349,36 +395,6 @@ def work_mode(num):
         # test()
 
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-
-SOS_token = 0
-EOS_token = 1
-teacher_forcing_ratio = 0.5
-hidden_size = 256
-MAX_LENGTH = 10
-drop_out = 0.1
-epochs = 7000
-display = 50
-eng_prefixes = (
-    "i am ", "i m ",
-    "he is", "he s ",
-    "she is", "she s ",
-    "you are", "you re ",
-    "we are", "we re ",
-    "they are", "they re "
-)
-input_lang, output_lang, pairs = prepareData(sour_lang, target_lang, path, True)
-
-encoder1 = EncoderRNN(input_lang.n_words, hidden_size).to(device) # 输入语种的单词总数和编码器隐藏层单元数送入编码器
-
-PATH = './result/spa_eng_enc'
-encoder1.load_state_dict(torch.load(PATH, map_location=device))
-
-PATH = './result/spa_eng_att'
-attn_decoder1 = AttnDecoderRNN(hidden_size, output_lang.n_words, dropout_p=drop_out).to(device) # 将解码器单元数，输出语种的单词种类，dropout率送入待attention机制的解码器
-attn_decoder1.load_state_dict(torch.load(PATH, map_location=device))
-
 
 if __name__ == '__main__':
 
@@ -387,5 +403,5 @@ if __name__ == '__main__':
     1 : BLEU模式
     2 : 测试模式，注：测试模式暂不开放。
     '''
-    work_mode(2)
+    work_mode(1)
 
