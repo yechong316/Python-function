@@ -16,8 +16,8 @@ import math
 参数2，切割比率，0-1之间，默认按0.1切割
 返回一个新文本，文件名为原始文件名 + 语料条数
 '''
-num_samples = 10000
-sour_lang = 'dan'
+num_samples = 20000
+sour_lang = 'chi'
 target_lang = 'eng'
 path = './{0}-{1}/{0}-{1}.txt'.format(sour_lang, target_lang)
 samples_text_path = './{0}-{1}/{0}_{1}_{2}.txt'.format(sour_lang, target_lang, num_samples)

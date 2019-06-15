@@ -25,17 +25,22 @@ from nltk.translate.bleu_score import sentence_bleu
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-save_path_enc = './result/{0}-{1}/{0}-{1}_enc_{2}'.format(sour_lang, target_lang, num_samples)
-save_path_att = './result/{0}-{1}/{0}-{1}_att_{2}'.format(sour_lang, target_lang, num_samples)
+save_dir = './result/{0}-{1}'.format(sour_lang, target_lang)
+
+if not os.path.exists(save_dir):
+
+    os.mkdir(save_dir)
+
+save_path_enc = save_dir + '/{0}-{1}_enc_{2}'.format(sour_lang, target_lang, num_samples)
+save_path_att = save_dir + '/{0}-{1}_att_{2}'.format(sour_lang, target_lang, num_samples)
 SOS_token = 0
 EOS_token = 1
 teacher_forcing_ratio = 0.8
 hidden_size = 512
-MAX_LENGTH = 10
+MAX_LENGTH = 15
 drop_out = 0.8
 epochs = 10000
 display = 1000
-MAX_LENGTH = 10
 lr = 0.01
 eng_prefixes = (
     "i am ", "i m ",
@@ -86,7 +91,12 @@ def readLangs(lang1, lang2, path, reverse=False):
     lines = open(path, encoding='utf-8').read().strip().split('\n')
 
     # Split every line into pairs and normalize
-    pairs = [[normalizeString(s) for s in l.split('\t')] for l in tqdm(lines)]
+    pairs = [[0, 0] * len(lines)]
+    for l in tqdm(lines):
+
+        pairs[0] = normalizeString(l.split('\t')[1])
+        pairs[1] = normalizeString(l.split('\t')[0])
+
 
     # Reverse pairs, make Lang instances
     if reverse:
@@ -376,7 +386,7 @@ input_lang, output_lang, pairs = prepareData(sour_lang, target_lang, data_path, 
 
 encoder1 = EncoderRNN(input_lang.n_words, hidden_size).to(device) # 输入语种的单词总数和编码器隐藏层单元数送入编码器
 
-attn_decoder1 = AttnDecoderRNN(hidden_size, output_lang.n_words, dropout_p=drop_out).to(device) # 将解码器单元数，输出语种的单词种类，dropout率送入待attention机制的解码器
+attn_decoder1 = AttnDecoderRNN(hidden_size, output_lang.n_words, dropout_p=drop_out, max_length=MAX_LENGTH).to(device) # 将解码器单元数，输出语种的单词种类，dropout率送入待attention机制的解码器
 
 
 
@@ -398,10 +408,16 @@ def work_mode(num):
 
 if __name__ == '__main__':
 
+
+    num = 2000
+
+
     '''
     0 : 训练模式
     1 : BLEU模式
     2 : 测试模式，注：测试模式暂不开放。
     '''
-    work_mode(1)
+
+    mode = 1
+    work_mode(mode)
 
