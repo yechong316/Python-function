@@ -1,21 +1,27 @@
 # encoding=utf8
+
+
 import os
 import pickle
 import random
 from tqdm import tqdm
 
-# with open('train_dev_test_sentences', 'rb') as f:
-#
-#     train_sentences = pickle.load(f)
-#     dev_sentences = pickle.load(f)
-#     test_sentences = pickle.load(f)
 
-data_dir = './原始数据'
-if not os.path.exists(data_dir):
-    os.mkdir(data_dir)
-data_train = os.path.join(data_dir, 'train.tsv')
-data_dev   = os.path.join(data_dir, 'dev.tsv')
-data_test  = os.path.join(data_dir, 'test.tsv')
+
+
+def get_dir(path):  # 获取目录路径
+    # 遍历path,进入每个目录都调用visit函数，
+    # 有3个参数，root表示目录路径，dirs表示当前目录的目录名，files代表当前目录的文件名
+    file_paths = []
+
+    files_name = list(os.walk(path))[0][2]
+
+    file_paths = [
+        os.path.join(path, i) for i in files_name
+    ]
+    return file_paths, files_name
+
+
 
 def single_text_samples(source_path, target_path, sample=0.01):
 
@@ -40,7 +46,14 @@ def single_text_samples(source_path, target_path, sample=0.01):
 
     print('文本切割成功，储存至{}，采样{}条数据'.format(target_path, sample))
 
+if __name__ == '__main__':
 
-single_text_samples(data_train, 'train.tsv', 20)
-single_text_samples(data_dev , 'dev.tsv', 10)
-single_text_samples(data_test, 'test.tsv', 10)
+    data_dir = './原始数据'
+    if not os.path.exists(data_dir):
+        os.mkdir(data_dir)
+    file_paths, files = get_dir(data_dir)
+
+    for i,j in zip(file_paths, files):
+
+        single_text_samples(i, j, 10)
+
