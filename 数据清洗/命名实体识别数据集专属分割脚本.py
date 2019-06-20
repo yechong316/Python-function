@@ -38,6 +38,7 @@ def single_text_samples(source_path, target_path, sample=0.01):
 
                 if line == '\n':
 
+                    l_total[-1].append('\n')
                     l_total.append([])
                     continue
 
