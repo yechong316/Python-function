@@ -3,10 +3,10 @@ def bubble_sort(alist):
     assert alist != None, 'Ntype dont support sorted！'
 
     length = len(alist)
-    for i in range(2, length +1):
+    for i in range(1, length):
 
         
-        for j in range(0, length - i +1):
+        for j in range(0, length - i):
 
             if alist[j] > alist[j + 1]:
                 alist[j], alist[j + 1] = alist[j + 1], alist[j]
