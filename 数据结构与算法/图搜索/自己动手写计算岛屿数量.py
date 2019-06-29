@@ -26,7 +26,7 @@ class Solution:
             for j in range(1, m + 1):
 
                 if new_grid[i][j] == 1:
-
+                    # 岛屿数量直接+1
                     num += 1
 
                     self.search_near_region(i, j, new_grid)
@@ -35,10 +35,15 @@ class Solution:
     def search_near_region(self, i, j, grid):
 
         if grid[i][j] == 0:
+
+            # 海洋直接返回
             return
         else:
+
+            # 搜索过的区域标记为0
             grid[i][j] = 0
 
+            # 对岛屿周边进行搜索
             self.search_near_region(i + 1, j, grid)
             self.search_near_region(i - 1, j, grid)
             self.search_near_region(i, j + 1, grid)
