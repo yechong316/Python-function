@@ -1,6 +1,6 @@
 def bubble_sort(alist):
 
-    assert alist != None, 'Ntype dont support sorted！'
+    assert alist is not None, 'Ntype dont support sorted！'
 
     length = len(alist)
     for i in range(1, length):
