@@ -1,4 +1,3 @@
-import random
 
 def train_test_split(X, Y=None, train_size=0.2):
 
@@ -11,7 +10,7 @@ def train_test_split(X, Y=None, train_size=0.2):
     :return: 乱序后的训练集和label
     '''
 
-
+    import random
     random.shuffle(X)
     random.shuffle(Y)
     split = int(len(X) * train_size)

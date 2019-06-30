@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d59c75bf-da62-4200-94c0-e60293b356a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP/pytorch-translation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/pytorch-translation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python基础/法.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础/levenshtein.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构与算法/线性表/数据结构可视化辅助理解，便于代码开发.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/线性表/数据结构可视化辅助理解，便于代码开发.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构与算法/线性表/查找重复数字.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/线性表/查找重复数字.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,19 +18,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python基础/levenshtein.py">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/排序算法/冒泡排序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="336">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/排序算法/quick_sorted.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python基础/append和extend的区别.py">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/排序算法/InsertionSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="1416">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -65,6 +74,9 @@
       <find>final_node</find>
       <find>self</find>
       <find>list2link</find>
+      <find>student_student</find>
+      <find>;</find>
+      <find>100000</find>
     </findStrings>
     <replaceStrings>
       <replace>cur</replace>
@@ -84,6 +96,8 @@
       <replace>Queue</replace>
       <replace>pre</replace>
       <replace>root</replace>
+      <replace>student_sys</replace>
+      <replace>repeat</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -92,24 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/二分查找.py" />
-        <option value="$PROJECT_DIR$/linked_list.py" />
-        <option value="$PROJECT_DIR$/single_linked_list.py" />
-        <option value="$PROJECT_DIR$/single_link_list_recurrent.py" />
-        <option value="$PROJECT_DIR$/双向链表.py" />
-        <option value="$PROJECT_DIR$/排序算法/Insertion Sort.py" />
-        <option value="$PROJECT_DIR$/排序算法/__init__.py" />
-        <option value="$PROJECT_DIR$/排序算法/选择排序.py" />
-        <option value="$PROJECT_DIR$/排序算法/运算速度比较.py" />
-        <option value="$PROJECT_DIR$/排序算法/InsertionSort.py" />
-        <option value="$PROJECT_DIR$/排序算法/冒泡排序.py" />
-        <option value="$PROJECT_DIR$/排序算法/shell_sorted.py" />
-        <option value="$PROJECT_DIR$/链表/single_link_list_recurrent.py" />
-        <option value="$PROJECT_DIR$/链表/single_linked_list.py" />
-        <option value="$PROJECT_DIR$/排序算法/shell_sorted-link-list.py" />
-        <option value="$PROJECT_DIR$/Python基础/浅拷贝深拷贝.py" />
-        <option value="$PROJECT_DIR$/排序算法/quick_sorted.py" />
-        <option value="$PROJECT_DIR$/排序算法/merge_sorted.py" />
         <option value="$PROJECT_DIR$/线性表/Stack.py" />
         <option value="$PROJECT_DIR$/线性表/Queue.py" />
         <option value="$PROJECT_DIR$/线性表/single_link_list_recurrent.py" />
@@ -137,14 +133,38 @@
         <option value="$PROJECT_DIR$/数据结构与算法/线性表/reverse_link_list_2.py" />
         <option value="$PROJECT_DIR$/数据结构与算法/线性表/92-reverse_link_list_2.py" />
         <option value="$PROJECT_DIR$/Python基础/法.py" />
+        <option value="$PROJECT_DIR$/数据结构与算法/树/已知中序后续，怎么求前序.py" />
+        <option value="$PROJECT_DIR$/数据结构与算法/线性表/查找重复数字.py" />
+        <option value="$PROJECT_DIR$/数据结构与算法/线性表/自己写.py" />
+        <option value="$PROJECT_DIR$/数据结构与算法/线性表/队列.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/判断顾客可否上地图.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/打印三角形.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/输出结果.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/查找amy.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/while输出图像.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/接受姓名.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/四则表达式.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/储存学员信息.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/字典存储学员信息.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/函数/题1.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/函数/题2.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/函数/题3.py" />
+        <option value="$PROJECT_DIR$/Python基础/exam/面向对象编程/1.py" />
+        <option value="$PROJECT_DIR$/数据结构与算法/图搜索/BFS搜索.py" />
+        <option value="$PROJECT_DIR$/数据结构与算法/图搜索/计算岛屿办法2.py" />
+        <option value="$PROJECT_DIR$/数据结构与算法/图搜索/自己动手写计算岛屿数量.py" />
+        <option value="$PROJECT_DIR$/数据结构与算法/数组/翻转数组.py" />
+        <option value="$PROJECT_DIR$/数据结构与算法/排序算法/冒泡排序.py" />
+        <option value="$PROJECT_DIR$/数据结构与算法/排序算法/桶排序.py" />
+        <option value="$PROJECT_DIR$/数据结构与算法/排序算法/快速寻找最大值.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-75" />
-    <option name="y" value="171" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1605" />
-    <option name="height" value="1050" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -161,6 +181,17 @@
               <item name="Python-function" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-function" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python-function" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-function" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-function" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-function" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="排序算法" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -170,19 +201,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../自然语言处理实战/DeepQA-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Python-function\数据结构与算法" />
-      <recent name="D:\人工智能\data-structure\排序算法" />
-      <recent name="D:\人工智能\data-structure" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\人工智能\data-structure" />
       <recent name="D:\人工智能\data-structure\链表" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python-function\Python基础\exam\函数" />
+      <recent name="D:\Python-function\数据结构与算法" />
+      <recent name="D:\人工智能\data-structure\排序算法" />
+      <recent name="D:\人工智能\data-structure" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.法">
+  <component name="RunManager" selected="Python.快速寻找最大值">
     <configuration name="匿名函数" type="PythonConfigurationType" factoryName="Python">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,7 +251,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="计算岛屿办法2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,11 +259,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python基础" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法/图搜索" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python-function\Python基础\levenshtein.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/图搜索/计算岛屿办法2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,7 +272,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="92-reverse_link_list_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="题3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,11 +280,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法/线性表" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python基础/exam/函数" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/线性表/92-reverse_link_list_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础/exam/函数/题3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,7 +293,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="二叉搜索树" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="快速寻找最大值" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,11 +301,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/二叉树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法/排序算法" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\人工智能\data-structure\二叉树\二叉树.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/排序算法/快速寻找最大值.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,7 +314,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="回文检查" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="桶排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,11 +322,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/线性表" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法/排序算法" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/线性表/回文检查.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/排序算法/桶排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -303,7 +335,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="BFS搜索" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,11 +343,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python基础" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法/图搜索" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础/法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/图搜索/BFS搜索.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -408,6 +440,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="已知中序后续，怎么求前序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data-structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法/树" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/树/已知中序后续，怎么求前序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="冒泡排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -450,6 +503,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="自己动手写计算岛屿数量" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data-structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法/图搜索" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/图搜索/自己动手写计算岛屿数量.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="翻转数组" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data-structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法/数组" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/数组/翻转数组.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="选择排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -471,7 +566,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="find_middle_node" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -479,11 +574,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法/线性表" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python基础" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python-function\数据结构与算法\线性表\876-find_middle_node.py" />
+      <option name="SCRIPT_NAME" value="D:\Python-function\Python基础\levenshtein.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -492,7 +587,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="remove_repeat_ele" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="二叉搜索树" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -500,11 +595,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法/线性表" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/二叉树" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/线性表/remove_repeat_ele.py" />
+      <option name="SCRIPT_NAME" value="D:\人工智能\data-structure\二叉树\二叉树.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -513,7 +608,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reverse_link_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="回文检查" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-structure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -521,11 +616,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法/线性表" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/线性表" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python-function\数据结构与算法\线性表\remove_repeat_ele.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/线性表/回文检查.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data-structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python基础" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python基础/法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="冒泡排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data-structure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构与算法/排序算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构与算法/排序算法/冒泡排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -536,11 +673,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.法" />
-        <item itemvalue="Python.92-reverse_link_list_2" />
-        <item itemvalue="Python.find_middle_node" />
-        <item itemvalue="Python.remove_repeat_ele" />
-        <item itemvalue="Python.reverse_link_list" />
+        <item itemvalue="Python.快速寻找最大值" />
+        <item itemvalue="Python.桶排序" />
+        <item itemvalue="Python.计算岛屿办法2" />
+        <item itemvalue="Python.BFS搜索" />
+        <item itemvalue="Python.题3" />
       </list>
     </recent_temporary>
   </component>
@@ -568,14 +705,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496614" visible="true" weight="0.165786" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496614" weight="0.19815059" />
       <window_info id="Structure" order="1" sideWeight="0.5010482" side_tool="true" weight="0.2007926" />
       <window_info id="Favorites" order="2" sideWeight="0.5022523" side_tool="true" weight="0.17239101" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.91347426" weight="0.42351276" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26345608" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.91347426" weight="0.234375" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.13031161" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -646,136 +784,79 @@
           <line>22</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python基础/exam/四则表达式.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/数据结构与算法/图搜索/计算岛屿办法2.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/数据结构与算法/图搜索/自己动手写计算岛屿数量.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/数据结构与算法/数组/翻转数组.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>dp[k][j]</expression-string>
+        <expression-string>new_grid[i][j]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>root.val</expression-string>
+        <expression-string>grid</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>n</expression-string>
+        <expression-string>int(grid[a][b])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>convertString[n%base]</expression-string>
+        <expression-string>q</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>length</expression-string>
+        <expression-string>0 &lt;= a &lt; m</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>cur</expression-string>
+        <expression-string>a &lt; m</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>count</expression-string>
+        <expression-string>0 &lt;= a</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>last_node</expression-string>
+        <expression-string>int(grid[x][y])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>self.is_empty()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>right_pointer</expression-string>
+        <expression-string>grid[i][j]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/二分查找.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27216">
-          <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-708247146/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="3605" column="8" selection-start-line="3605" selection-start-column="8" selection-end-line="3605" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序算法/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/排序算法/运算速度比较.py" />
-    <entry file="file://$PROJECT_DIR$/排序算法/选择排序.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-708247146/_random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="214" column="34" lean-forward="true" selection-start-line="214" selection-start-column="14" selection-end-line="214" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-708247146/numpy/random/mtrand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48384">
-          <caret line="2020" column="4" selection-start-line="2020" selection-start-column="4" selection-end-line="2020" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序算法/InsertionSort.py" />
-    <entry file="file://$PROJECT_DIR$/排序算法/冒泡排序.py" />
-    <entry file="file://$PROJECT_DIR$/排序算法/shell_sorted.py" />
-    <entry file="file://$PROJECT_DIR$/排序算法/shell_sorted-link-list.py" />
-    <entry file="file://$PROJECT_DIR$/排序算法/quick_sorted.py" />
-    <entry file="file://$PROJECT_DIR$/排序算法/merge_sorted.py" />
-    <entry file="file://$PROJECT_DIR$/线性表/single_linked_list.py" />
-    <entry file="file://$PROJECT_DIR$/线性表/Stack.py" />
-    <entry file="file://$PROJECT_DIR$/线性表/Queue.py" />
-    <entry file="file://$PROJECT_DIR$/线性表/双向链表.py" />
-    <entry file="file://$PROJECT_DIR$/线性表/single_link_list_recurrent.py" />
-    <entry file="file://$PROJECT_DIR$/约瑟夫问题.py" />
-    <entry file="file://$PROJECT_DIR$/线性表/double_recurrent_LL.py" />
-    <entry file="file://$PROJECT_DIR$/线性表/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/递归/乌龟画图.py" />
-    <entry file="file://$PROJECT_DIR$/Python基础/匿名函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/线性表/Deque.py" />
-    <entry file="file://$PROJECT_DIR$/线性表/回文检查.py" />
-    <entry file="file://$PROJECT_DIR$/递归/整数转换为任意进制字符串.py" />
     <entry file="file://$PROJECT_DIR$/递归/递归案例.py" />
     <entry file="file://$PROJECT_DIR$/../Python-master/binary_tree/basic_binary_tree.py" />
     <entry file="file://$PROJECT_DIR$/二叉树/二叉树实现.py" />
@@ -792,16 +873,6 @@
     <entry file="file://$PROJECT_DIR$/数据结构与算法/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序算法/quick_sorted.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="e#103#164#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/remove_repeat_ele.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -817,13 +888,6 @@
         <state relative-caret-position="-2088" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/double_recurrent_LL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="190" selection-start-line="190" selection-end-line="193" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/92-reverse_link_list_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -835,18 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/single_linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1536">
-          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
-          <folding>
-            <element signature="e#1686#2468#0" />
-            <element signature="e#2519#3213#0" />
-            <element signature="e#3247#3599#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -868,7 +920,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python基础/levenshtein.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
+        <state relative-caret-position="600">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
@@ -876,7 +928,229 @@
     <entry file="file://$PROJECT_DIR$/Python基础/append和extend的区别.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/树/已知中序后续，怎么求前序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/回文检查.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/single_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="158" selection-start-line="158" selection-end-line="159" />
+          <folding>
+            <element signature="e#1686#2468#0" />
+            <element signature="e#2519#3213#0" />
+            <element signature="e#3247#3599#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/double_recurrent_LL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="190" selection-start-line="190" selection-end-line="193" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序算法/shell_sorted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-616" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-708247146/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="2020" column="4" selection-start-line="2020" selection-start-column="4" selection-end-line="2020" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_trace_dispatch_regular.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/自己写.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="3012" column="4" selection-start-line="3012" selection-start-column="4" selection-end-line="3012" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/判断顾客可否上地图.py" />
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/输出结果.py" />
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/打印三角形.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/while输出图像.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/接受姓名.py" />
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/储存学员信息.py" />
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/四则表达式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/查找amy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/字典存储学员信息.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/输出学员信息.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/函数/题1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/函数/题2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/函数/题3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python基础/exam/面向对象编程/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/查找重复数字.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/线性表/队列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/图搜索/BFS搜索.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/图搜索/计算岛屿办法2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret selection-end-line="2" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/图搜索/自己动手写计算岛屿数量.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序算法/桶排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序算法/快速寻找最大值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/数组/翻转数组.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序算法/冒泡排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序算法/quick_sorted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序算法/InsertionSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1416">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
