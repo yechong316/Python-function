@@ -1,5 +1,3 @@
-from quick_sorted import *
-from 冒泡排序 import *
 
 class MinHeap():
     def parent(self,n):
@@ -55,38 +53,38 @@ if __name__ == "__main__":
     list = np.random.randint(-20, 20, size=n_samples)
     print("原数组：")
     from datetime import datetime
-
+    print('堆泡排序耗时：', list)
     minHeap = MinHeap()
     # minHeap.print(list)
     start = datetime.now()
     repeat = 100
-    for _ in range(repeat):
+    # for _ in range(repeat):
 
-        minHeap.findTopN(1, list)
+    minHeap.findTopN(1, list)
     end = datetime.now()
-    print('堆泡排序耗时：', end-start)
+    print('堆泡排序耗时：', list)
     
     
     # print("调整后数组：")
     # minHeap.print(list)
-    start = datetime.now()
-    for _ in range(repeat):
-
-        quick_sorted(list, 1, len(list)-1)
-    end = datetime.now()
-    print('快速排序耗时：', end-start)
-
-    start = datetime.now()
-    for _ in range(repeat):
-
-        bucket_sort(list)
-    end = datetime.now()
-    print('桶泡排序耗时：', end-start)
-
-    # minHeap.print(list)
-    start = datetime.now()
-    for _ in range(repeat):
-
-        bubble_sort(list)
-    end = datetime.now()
-    print('冒泡排序耗时：', end-start)
+    # start = datetime.now()
+    # for _ in range(repeat):
+    #
+    #     quick_sorted(list, 1, len(list)-1)
+    # end = datetime.now()
+    # print('快速排序耗时：', end-start)
+    #
+    # start = datetime.now()
+    # for _ in range(repeat):
+    #
+    #     bucket_sort(list)
+    # end = datetime.now()
+    # print('桶泡排序耗时：', end-start)
+    #
+    # # minHeap.print(list)
+    # start = datetime.now()
+    # for _ in range(repeat):
+    #
+    #     bubble_sort(list)
+    # end = datetime.now()
+    # print('冒泡排序耗时：', end-start)
