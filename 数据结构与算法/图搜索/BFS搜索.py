@@ -11,6 +11,7 @@ class Solution(object):
             n = len(grid[0])
             around = ((0, 1), (1, 0), (0, -1), (-1, 0))
         except:
+            print('非法字符')
             return 0
 
         for i in range(m):
@@ -46,6 +47,8 @@ grid = [[
 plt.imshow(grid)
 s = Solution()
 num = s.numIslands(grid)
+a = None
+num1 = s.numIslands(a)
 print(num)
 
 plt.show()
