@@ -1,6 +1,5 @@
-import random
 
-def train_test_split(X, Y=None, train_size=0.2):
+def train_test_split(X, Y=None, train_size=0.2, random_state=14):
 
     '''
     将X,Y数据集乱序，并且返回，要求输入训练集的维度，默认label的维度为1
