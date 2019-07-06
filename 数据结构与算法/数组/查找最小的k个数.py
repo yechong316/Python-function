@@ -52,11 +52,30 @@ def find_min_k(arr, k):
                 result = heap_sort(result)
         return result
 
+def find_max_k(arr, k):
+
+    if arr is None or k <= 0:
+
+        return
+    elif k >= len(arr): return arr
+    else:
+
+        result = arr[:k]
+        result = heap_sort(result)
+        n = len(arr)
+        for i in range(k, n):
+
+            if arr[i] > result[0]:
+
+                result[-1] = arr[i]
+                result = heap_sort(result)
+        return result
 
 arr = [90, 50, 80, 16, 30, 60, 70, 10, 2]
 # heap_sort(arr)
 # n = len(arr)
 # print("排序后")
 # print(arr)
-result = find_min_k(arr, 10)
+# result = find_min_k(arr, 10)
+result = find_max_k(arr, 2)
 print(result)
