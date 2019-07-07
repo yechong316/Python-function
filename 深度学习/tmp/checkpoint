@@ -1,0 +1,2 @@
+model_checkpoint_path: "tf\347\273\203\346\211\213"
+all_model_checkpoint_paths: "tf\347\273\203\346\211\213"
