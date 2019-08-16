@@ -7,7 +7,7 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.5 (ChineseNER-master) (2)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.5 (Python-function)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Python 3.5 (Python-function) interpreter library" level="application" />
   </component>
